@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './UserList.module.css';
+import React from "react";
+import PropTypes from "prop-types";
+import styles from "./UserList.module.css";
 
 const Profile = ({ avatar, name, tag, location, stats }) => (
   <div className={styles.profile}>
@@ -28,7 +28,7 @@ const Profile = ({ avatar, name, tag, location, stats }) => (
 );
 
 Profile.defaultProps = {
-  tag: 'default tag',
+  tag: "default tag"
 };
 
 Profile.propTypes = {
@@ -39,8 +39,8 @@ Profile.propTypes = {
   stats: PropTypes.shape({
     followers: PropTypes.number.isRequired,
     views: PropTypes.number.isRequired,
-    likes: PropTypes.number.isRequired,
-  }),
+    likes: PropTypes.number.isRequired
+  })
 };
 
 export default Profile;
