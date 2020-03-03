@@ -1,0 +1,2 @@
+(this["webpackJsonphw-02-phonebook"]=this["webpackJsonphw-02-phonebook"]||[]).push([[0],[function(o,n,p){o.exports=p(1)},function(o,n){alert("\u041f\u0440\u0438\u0432\u0435\u0442")}],[[0,1]]]);
+//# sourceMappingURL=main.e3f5d107.chunk.js.map
