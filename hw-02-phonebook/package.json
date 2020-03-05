@@ -8,9 +8,13 @@
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
     "gh-pages": "^2.2.0",
+    "indicative": "^7.4.4",
+    "material-design-icons": "^3.0.1",
+    "pnotify": "^4.0.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.0",
+    "shortid": "^2.2.15"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prop-types": "^15.7.2"
   }
 }
